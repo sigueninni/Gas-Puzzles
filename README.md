@@ -3,8 +3,8 @@
 ## Puzzles to solve
 
 -   [X] Require (easy) " not so easy :) ... at least for me !
--   [ ] Vote (easy)
--   [ ] Array Sum (easy)
+-   [X] Vote (easy)
+-   [X] Array Sum (easy)
 -   [ ] Security101 (easy/medium)
 -   [ ] Array Sort (medium)
 -   [ ] ERC165 (low level programming required)
