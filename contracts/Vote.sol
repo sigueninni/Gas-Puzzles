@@ -4,14 +4,14 @@ pragma solidity 0.8.15;
 
 contract Vote {
     struct Voter {
-        uint8 vote; //1 byte
-        bool voted; // 1 byte
+        uint8 vote;
+        bool voted;
     }
 
     struct Proposal {
-        uint8 voteCount; // 1 byte
-        bytes32 name; // 32 bytes
-        bool ended; // 1 byte
+        uint8 voteCount;
+        bytes32 name;
+        bool ended;
     }
 
     mapping(address => Voter) public voters;
@@ -34,10 +34,3 @@ contract Vote {
         return proposals[_proposal].voteCount;
     }
 }
-
-/* 1  
-           Current gas use:   138807
-           The gas target is: 136508
-           You are 2299 above the target
-
-           */

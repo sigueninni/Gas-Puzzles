@@ -2,7 +2,7 @@
 
 ## Puzzles to solve
 
--   [ ] Require (easy)
+-   [X] Require (easy) " not so easy :) ... at least for me !
 -   [ ] Vote (easy)
 -   [ ] Array Sum (easy)
 -   [ ] Security101 (easy/medium)
